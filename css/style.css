@@ -1,0 +1,479 @@
+* {margin: 0;padding: 0;}
+header,nav,footer,section,article,main,aside
+{
+    display: block;
+}
+a {
+    text-decoration: none;;
+}
+
+#logo
+{
+    background-image: url(../image/סמיילי\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    top: 41px;
+    display: block;
+}
+
+#logo span
+{
+    position: absolute;
+    width: 154px;
+    height: 33px;
+    left: 50px;
+    /* top: 40px; */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+
+    letter-spacing: 0.25em;
+
+    color: #3E3F43;
+}
+
+.paragra1
+{
+    display: flex;
+    background-color: #F9BDBD;
+    height: 555px;
+    top: 700px;
+    width: 100%;
+    margin-top: 123px;
+    
+}
+
+.firstpic
+{
+    position: absolute;
+    width: 278px;
+    height: 388px;
+    left: 60px;
+    top: 206px;
+}
+
+.Welcome
+{
+    position: absolute;
+width: 448px;
+height: 98px;
+left: 506px;
+top: 206px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+
+color: #3E3F43;
+}
+
+.begin
+{
+    position: absolute;
+    width: 448px;
+    height: 66px;
+    left: 506px;
+    top: 320px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.about
+{
+    position: absolute;
+    width: 89px;
+    height: 40px;
+    left: 40px;
+    top: 702px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+.tell
+{
+    margin-top: 88px;
+    margin-left: 40px;
+    margin-right: 419px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.Exercise
+{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 40px;
+    margin-top: 83px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.ex1 {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    /* left: 40px;
+    top: 1150px;
+     */
+    margin-top: 147px;
+    margin-left: 40px;
+    background: #FDEDE5;
+    border-radius: 40px;
+}
+
+.ex2 {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    margin-top: 147px;
+    margin-left: 264px;
+    
+    background: #EBF1FF;
+    border-radius: 40px;
+
+}
+
+.ex3 {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    margin-top: 147px;
+    margin-left: 488px;
+    
+    background: #EBFFEC;
+    border-radius: 40px;
+}
+
+.ex4 {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    margin-top: 147px;
+    margin-left: 712px;
+    background: #FFEBFC;
+    
+    border-radius: 40px;
+}
+
+.ex5 {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    margin-top: 147px;
+    margin-left: 936px;
+    background: #FFFEEB;
+    border-radius: 40px;
+    
+}
+
+.ex1 img, .ex2 img, .ex3 img, .ex4 img, .ex5 img {
+        
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: calc(50% - 80px/2 - 36px);
+    top: 24px;
+
+}
+
+.ex1 .ex, .ex2 .ex, .ex3 .ex, .ex4 .ex, .ex5 .ex {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    left: calc(50% - 77px/2 - 37.5px);
+    top: 128px;
+        
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.ex1 .button,
+.ex2 .button, 
+.ex3 .button, 
+.ex4 .button, 
+.ex5 .button{
+    position: absolute;
+    height: 40px;
+    left: 24px;
+    top: 184px;
+    width: 120px;
+    border-radius: 30px;
+
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    display: block;
+}
+
+.ex1 .button .text,
+.ex2 .button .text,
+.ex3 .button .text,
+.ex4 .button .text,
+.ex5 .button .text {
+    position: absolute;
+    height: 24px;
+    left: 16.84px;
+    right: 14.74px;
+    top: 8px;
+
+    width: 88px;
+        
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #171F46;
+    display: block;
+} 
+
+.ex1 .button:hover, 
+.ex2 .button:hover,
+.ex3 .button:hover,
+.ex4 .button:hover,
+.caex5rd5 .button:hover {
+    background-color: #171F46;
+}
+
+.ex1 .button .text:hover {
+    color: #FDEDE5;
+}
+
+.ex2 .button .text:hover {
+    color: #EBF1FF;
+}
+
+.ex3 .button .text:hover {
+    color: #EBFFEC;
+}
+
+.ex4 .button .text:hover {
+    color: #FFEBFC;;
+}
+
+.ex5 .button .text:hover {
+    color: #FFFEEB;
+}
+
+
+.pro
+{
+    position: absolute;
+    width: 364px;
+    height: 40px;
+    margin-top: 451px;
+    margin-left: 40px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+.ul1
+{
+    position: absolute;
+    height: 141px;
+    width: 364px;
+    margin-left: 60px;
+    margin-top: 515px;
+    border-radius: nullpx;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+    color: #000000;
+}
+
+.choice
+{
+    position: absolute;
+    width: 169px;
+    height: 40px;
+    left: 40px;
+   margin-top: 696px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.backroundpink
+{
+    position: absolute;
+    width: 1120px;
+    height: 508px;
+    left: 40px;
+    margin-top: 760px;
+    background: #F9BDBD;    
+}
+
+.gray
+{
+    background-image: url(../image/Gray.png);
+    height: 301px;
+    margin-top: 1539px;
+   
+}
+
+.follow
+{
+    position: absolute;
+    /* width: 81px;
+    height: 25px; */
+    left: 40px;
+    margin-top: 32px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.facebook
+{
+    position: absolute;
+    /* width: 81px;
+    height: 25px; */
+    left: 40px;
+    margin-top: 73px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #8D8D8D;
+    
+}
+
+.instagram
+{
+    position: absolute;
+    width: 63px;
+    height: 19px;
+    left: 40px;
+    margin-top: 108px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8D8D8D;
+
+}
+
+.linkedin
+{
+    position: absolute;
+    width: 63px;
+    height: 19px;
+    left: 40px;
+    margin-top: 143px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8D8D8D;
+}
+
+.rights
+{
+    position: absolute;
+    width: 108.33px;
+    height: 17.65px;
+    left: 40px;
+    margin-top: 232px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #8D8D8D;
+}
+
+.end
+{
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.endpic
+{
+    position: absolute;
+    width: 278px;
+    height: 388px;
+    margin-left: 700px;
+    margin-top: 50px    ;
+}
